@@ -1,0 +1,28 @@
+body{
+    background:linear-gradient(darkviolet,deepskyblue,deeppink) ;
+    color:deepskyblue;
+}
+#start-btn
+{
+    width: 40%;
+} 
+#camara
+{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+}
+#logo_img
+{
+    width: 150px;
+    border-radius: 100px;
+}
+button{
+    background-color: blue;
+    border-radius: 40px;
+    padding: 10px;
+}
+#perfil{
+    background-color: #8d50ef;
+   
+}
