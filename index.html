@@ -3,6 +3,7 @@
 <head>
     <title>FOTO KWAII</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 </head>
 <body>
     <center>
@@ -15,18 +16,18 @@
         
         <div class="form-group">
             <h3 id="cha">"TU MEJOR PERFIL KWAII"</h3>
-            <label id="cha" >(Si dices toma mi foto kwaii podras tomar tu foto.)</label>
+            <label id="cha" >(Si dices: "toma mi foto kawaii" podras tomarte tu foto.)</label>
             <br>
             <label id="cha">Tu salida de voz: </label>
             <br>
-            <textarea id="" readonly="true"></textarea>
+            <textarea id="tronco" readonly="true"></textarea>
             <br>
         </div>
-        <button>microfono</button>
+        <button onclick="goma()">microfono</button>
         <p>Prende el microfono y habla.</p>
 
         <label>Tu cámara: </label>
-        <div id="camara"></div>
+        <div id="camara" src="foto.png"></div>
         <br>
         <label>Tu selfie aparecerá aquí: </label>
         <div id="foto"></div>
